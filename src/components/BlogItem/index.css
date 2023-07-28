@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.container {
+  width: 700px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #8e8e8e;
+  margin: 7px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.image {
+  height: 150px;
+  width: 400px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  text-decoration-style: none;
+}
+.topic {
+  font-size: 12px;
+  color: #000000;
+}
+.title {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #8e8e8e;
+}
+.avatarContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.avatarImage {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.author {
+  margin-left: 4px;
+  font-size: 12px;
+  color: #2f4f4f;
+}
